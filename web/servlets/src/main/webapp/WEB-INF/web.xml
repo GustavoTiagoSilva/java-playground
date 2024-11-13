@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>XMLServlet</servlet-name>
+    <servlet-class>servlets.XMLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XMLServlet</servlet-name>
+    <url-pattern>/xml</url-pattern>
+  </servlet-mapping>
 </web-app>
